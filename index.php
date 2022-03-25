@@ -1,5 +1,5 @@
 <?php 
-session_start();
-require_once 'config/config.php';
 
-include('views/admin/index.php');
+require_once '../app/init.php';
+
+$app = new App();
